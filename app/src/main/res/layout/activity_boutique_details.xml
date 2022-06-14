@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoutiqueDetails">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="357dp"
+
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/undraw_phone_call_re_hx6a" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quick"
+            android:gravity="center_horizontal"
+            android:text="BOB Phone"
+            android:textColor="#212121"
+            android:textSize="22dp"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="#D06E6969"
+            android:backgroundTint="#D32F2F" />
+
+        <Button
+            android:id="@+id/Wilaya"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button1"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:fontFamily="@font/ta"
+            android:inputType="textCapCharacters"
+            android:padding="15dp"
+            android:text="Alger / Hydra"
+            android:textColor="#212121"
+            android:textSize="17dp"></Button>
+
+        <Button
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button1"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:fontFamily="@font/ta"
+            android:onClick="Call"
+            android:padding="15dp"
+            android:text="0669643464"
+            android:textColor="#212121"
+            android:textSize="17dp"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2"
+            android:fontFamily="@font/quick"
+            android:inputType="textCapCharacters"
+            android:onClick="Ask"
+            android:padding="15dp"
+            android:text="Ask"
+            android:textColor="@color/white"
+            android:textSize="17dp"></Button>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

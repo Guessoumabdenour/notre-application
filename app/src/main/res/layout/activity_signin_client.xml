@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninClient"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/quick"
+        android:text="Get started"
+        android:textColor="#D32F2F"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Username"
+        android:textColor="@color/black"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/Mail"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Email"
+        android:textColor="@color/black"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"></EditText>
+
+    <RadioGroup
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRg"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroup" >
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Client"
+            android:textColor="#212121" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="RepairMan"
+            android:textColor="#212121" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20px"
+        android:background="@drawable/button2"
+        android:backgroundTint="#D32F2F"
+        android:fontFamily="@font/quick"
+        android:inputType="textCapCharacters"
+        android:onClick="Save"
+        android:text="Create account"
+        android:textColor="@color/white"></Button>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="319dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_undraw_access_account_re_8spm" />
+
+</LinearLayout>

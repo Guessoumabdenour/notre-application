@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBoutique"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/quick"
+        android:text="Last step "
+        android:textColor="#D32F2F"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Store name"
+        android:textColor="@color/black"></EditText>
+
+    <Spinner
+        android:id="@+id/Wilaya"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:padding="10dp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Adress"
+        android:textColor="@color/black"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Phone"
+        android:textColor="@color/black"></EditText>
+
+    <Button
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20px"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/quick"
+        android:onClick="Save"
+        android:text="Finish"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/white"></Button>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="268dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/confirmed_2" />
+
+</LinearLayout>

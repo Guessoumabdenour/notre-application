@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_baseline_storefront_24"
+        android:title="Stores" />
+    <item
+        android:id="@+id/thirdFragment2"
+        android:icon="@drawable/ic_baseline_mail_24"
+        android:title="Messages" />
+
+    <item
+        android:id="@+id/postFragment"
+        android:icon="@drawable/ic_baseline_mark_chat_read_24"
+        android:title="Posts" />
+
+
+
+
+</menu>

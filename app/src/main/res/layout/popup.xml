@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button1">
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/ta"
+        android:text="Ask us"
+        android:textColor="#D32F2F"
+        android:textSize="40dp"></TextView>
+
+    <ImageView
+        android:id="@+id/Add"
+        android:layout_width="205dp"
+        android:layout_height="157dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/photo"></ImageView>
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:id="@+id/Details"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/quick"
+        android:hint="Details"
+        android:textColor="@color/black"></EditText>
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:background="@drawable/button4"
+        android:backgroundTint="#212121"
+        android:fontFamily="@font/ta"
+        android:inputType="textCapCharacters"
+        android:text="Send"
+        android:textColor="@color/white"
+        android:textSize="20sp"></Button>
+
+
+</LinearLayout>

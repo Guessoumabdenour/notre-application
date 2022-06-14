@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.denzcoskun.imageslider.ImageSlider
+            app:placeholder="@drawable/logo_"
+            app:error_image="@drawable/logo_"
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:auto_cycle="true"
+            app:period="1000"
+            app:corner_radius="5"
+            />
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ta"
+            android:gravity="center_horizontal"
+            android:text="Title"
+            android:textColor="#403B58"
+            android:textSize="22dp"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="#D06E6969"
+            android:backgroundTint="#D32F2F"
+
+            />
+
+        <Button
+            android:id="@+id/Details"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button1"
+            android:fontFamily="@font/ta"
+            android:padding="15dp"
+            android:text="more details"
+            android:inputType="textCapCharacters"
+            android:textColor="#403B58"
+            android:textSize="17dp"></Button>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="#2e2e2e"
+            android:backgroundTint="#D32F2F"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

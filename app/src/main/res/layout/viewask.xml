@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button1"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="12dp"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/android"
+    android:id="@+id/Img">
+</ImageView>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button4"
+        android:fontFamily="@font/ta"
+        android:gravity="center_horizontal"
+        android:text="Souk Ahras / Mdaawrouch"
+        android:textColor="#212121"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/ta"
+        android:gravity="center_horizontal"
+        android:text="R4 Familly 1894"
+        android:textColor="#212121"
+        android:textSize="22dp"></TextView>
+
+
+</LinearLayout>

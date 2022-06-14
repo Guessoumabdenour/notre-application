@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467607751292",
+    "project_id": "healthy-phone",
+    "storage_bucket": "healthy-phone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467607751292:android:f26aaf01fbff937b9357f9",
+        "android_client_info": {
+          "package_name": "com.neuer.healthyphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467607751292-qfolakpjtrqkcokicpdjjhv1iopqh4rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk0F20OTVfqs_DQKSMNAou_4a-R-2V0UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467607751292-qfolakpjtrqkcokicpdjjhv1iopqh4rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
